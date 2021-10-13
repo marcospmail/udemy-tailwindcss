@@ -1,78 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mini Project</title>
 
-  <link rel="stylesheet" href="css/styles.css" /> 
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
 
-<body class="bg-blue-500 debug-screens">
-  
-  <div class="container min-h-screen px-6 py-8 mx-auto bg-gray-100">
-    <! - page header / headings ->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-    <section id="header">
-      <div class="text-center">
-        <h1 class="font-serif">Tom Gonzales home training <br> I'll get you in shape!</h1>
-        <h2>Muscle building • Functional training • Nutritional advice</h2>
-      </div>
-  </section>
+  <body class="bg-mainColor debug-screens">
 
-  <section id="image_services" class="grid grid-cols-2 gap-4 mt-8">
+    <div class="container min-h-screen px-6 py-8 mx-auto bg-gray-100">
 
-    <! - picture ->
-      <div  id="image">
-        <img src = "img/tom.jpg" alt = "Tom Gonzales Online Training">
-      </div>
-    
-    <! - Services ->
-    
-    <div>
-      <h3>I offer you:</h3>
-      <ul>
-        <li>Lessons via Skype and you can record all sessions and watch them again later. </li>
-        <li>Holistic full body training</li>
-        <li>Training without equipment</li>
-        <li>Pain reduction</li>
-        <li>Tailored nutrition plans</li>
-      </ul>
-      <h3>My qualifications:</h3>
-        <ul>
-          <li>Certified nutritionist</li>
-          <li>Certified fitness trainer</li>
-          <li>5 years of experience in 1: 1 training</li>
-        </ul>
+      <section id="header">
+        <div class="text-center">
+          <h1>Tom Gonzales home training <br> I'll get you in shape!</h1>
+          <h2>Muscle building • Functional training • Nutritional advice</h2>
+        </div>
+      </section>
+
+      <section id="image_services" class="grid grid-cols-2 gap-10 mt-8">
+
+        <div id="image" class="ml-auto">
+          <img src="img/tom.jpg" alt="Tom Gonzales Online Training">
+        </div>
+
+        <div>
+          <h3>I offer you:</h3>
+          <ul class="list-disc ml-4">
+            <li class="mb-4 text-xl">Lessons via Skype and you can record all sessions and watch them again later. </li>
+            <li class="mb-4 text-xl">Holistic full body training</li>
+            <li class="mb-4 text-xl">Training without equipment</li>
+            <li class="mb-4 text-xl">Pain reduction</li>
+            <li class="mb-4 text-xl">Tailored nutrition plans</li>
+          </ul>
+          <h3 class="mt-10">My qualifications:</h3>
+          <ul class="list-disc ml-4">
+            <li class="mb-4 text-xl">Certified nutritionist</li>
+            <li class="mb-4 text-xl">Certified fitness trainer</li>
+            <li class="mb-4 text-xl">5 years of experience in 1: 1 training</li>
+          </ul>
+        </div>
+
+      </section>
+
+      <! - Prices and payment ->
+        <section id="price_payment" class="mt-8">
+          <div class="w-2/6 mx-auto">
+            <h2>Prices and payment</h2>
+            <p>My most important goal is that you get ahead with your goals.</p>
+            <p>In a free opening session we will discuss what you want to achieve and how much you can or want to spend.
+              Then we are guaranteed to find a solution that suits you.</p>
+          </div>
+        </section>
+
+        <! - Contact ->
+          <section id="contact" class="mt-8 mb-10">
+            <div class="grid w-2/6 grid-cols-2 gap-4 mx-auto">
+              <div id="email">
+                <p>Your message:</p>
+                <a class="flex items-center bg-gray-300 px-4 py-2 rounded shadow-sm hover:bg-gray-400 hover:shadow-none transition focus:ring-2 focus:ring-yellow-400" href="mailto:markusgonzales@gmail.com">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-at-sign"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg>
+
+                  <span class="ml-2">Send an Email</span>
+                </a>
+              </div>
+              <div id="whatsApp_telefon">
+                <p>WhatsApp:</p>
+                1 222 555 44 33
+              </div>
+            </div>
+          </section>
     </div>
 
-  </section>
-
-    <! - Prices and payment ->
-    <section id="price_payment" class="mt-8">
-      <div class="w-2/6 mx-auto">
-        <h2>Prices and payment</h2>
-        <p>My most important goal is that you get ahead with your goals.</p>
-        <p>In a free opening session we will discuss what you want to achieve and how much you can or want to spend. Then we are guaranteed to find a solution that suits you.</p>
-      </div>
-    </section>
-
-    <! - Contact ->
-    <section id="contact" class="mt-8">
-      <div class="grid w-2/6 grid-cols-2 gap-4 mx-auto">
-        <div id="email">
-          <p>Your message:</p>
-          <a href="mailto:markusgonzales@gmail.com">Send an Email</a>
-        </div>
-        <div id="whatsApp_telefon">
-          <p>WhatsApp:</p>
-          1 222 555 44 33
-        </div>
-      </div>
-    </section>
-  </div>
-
-</body>
+  </body>
 
 </html>
